@@ -1,6 +1,4 @@
 
-
-
 // Load the .csv file into vectors of vectors of string.
 std::vector<std::vector<std::string>> read_CSV(std::string file_name) ;
 
@@ -13,3 +11,5 @@ void print_data(std::vector<std::vector<std::string>> sheet) ;
 // initiate the loaded sheet with zeros.
 std::vector<std::vector<std::string>> blank_to_zero(std::vector<std::vector<std::string>> sheet,
 	int row_begin, int row_end, int col_begin, int col_end) ;
+	
+	
