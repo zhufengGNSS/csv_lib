@@ -8,7 +8,7 @@ void write_CSV(std::string file_name, std::vector<std::vector<std::string>> shee
 // Print the loaded sheet on console.
 void print_data(std::vector<std::vector<std::string>> sheet) ;
 
-// initiate the loaded sheet with zeros.
+// Initiate the loaded sheet with zeros.
 std::vector<std::vector<std::string>> blank_to_zero(std::vector<std::vector<std::string>> sheet,
 	int row_begin, int row_end, int col_begin, int col_end) ;
 	
